@@ -4,17 +4,22 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
   },
   "author": "Than Quoc Tuan",
   "license": "ISC",
   "dependencies": {
-    "cors": "^2.8.5"
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.1",
+    "eslint": "^9.9.1",
+    "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-vue": "^9.27.0",
     "globals": "^15.9.0",
+    "nodemon": "^3.1.4",
     "prettier": "^3.3.3"
   }
 }
